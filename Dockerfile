@@ -2,11 +2,16 @@
 #                         Part 1: Download the files                           #
 # ---------------------------------------------------------------------------- #
 FROM alpine/git:2.43.0 as download
-COPY builder/clone.sh /clone.sh
 
 # Clone the repos
 # Fooocus-API
-RUN . /clone.sh /workspace https://github.com/mrhan1993/Fooocus-API.git a50ed2f7db116f49e168c634ce4fa639ca42dda7
+RUN set -Eeuox pipefail && \
+    mkdir -p /workspace && \
+    cd /workspace && \
+    git init && \
+    git remote add origin https://github.com/mrhan1993/Fooocus-API.git && \
+    git fetch origin a50ed2f7db116f49e168c634ce4fa639ca42dda7 --depth=1 && \
+    git reset --hard a50ed2f7db116f49e168c634ce4fa639ca42dda7
 
 # ---------------------------------------------------------------------------- #
 #                        Part 2: Build the final image                         #
