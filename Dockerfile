@@ -9,4 +9,5 @@ RUN rm /workspace/repositories/Fooocus/models/checkpoints/juggernautXL_v8Rundiff
 
 RUN wget -O /workspace/repositories/Fooocus/models/checkpoints/animaPencilXL_v310.safetensors https://huggingface.co/mashb1t/fav_models/resolve/main/fav/animaPencilXL_v310.safetensors?download=true
 
+RUN chmod +x /start.sh
 CMD /start.sh
