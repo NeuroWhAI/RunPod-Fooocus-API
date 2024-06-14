@@ -1,12 +1,12 @@
 {
-    "default_model": "juggernautXL_v8Rundiffusion.safetensors",
+    "default_model": "animaPencilXL_v310.safetensors",
     "default_refiner": "None",
     "default_refiner_switch": 0.5,
     "default_loras": [
         [
             true,
-            "sd_xl_offset_example-lora_1.0.safetensors",
-            0.1
+            "None",
+            1.0
         ],
         [
             true,
@@ -29,7 +29,7 @@
             1.0
         ]
     ],
-    "default_cfg_scale": 4.0,
+    "default_cfg_scale": 6.0,
     "default_sample_sharpness": 2.0,
     "default_sampler": "dpmpp_2m_sde_gpu",
     "default_scheduler": "karras",
@@ -38,18 +38,18 @@
     "default_prompt_negative": "",
     "default_styles": [
         "Fooocus V2",
-        "Fooocus Enhance",
-        "Fooocus Sharp"
+        "Fooocus Semi Realistic",
+        "Fooocus Masterpiece"
     ],
-    "default_aspect_ratio": "1152*896",
+    "default_aspect_ratio": "896*1152",
     "checkpoint_downloads": {},
     "embeddings_downloads": {},
     "lora_downloads": {},
     "previous_default_models": [
-        "juggernautXL_version8Rundiffusion.safetensors",
-        "juggernautXL_version7Rundiffusion.safetensors",
-        "juggernautXL_v7Rundiffusion.safetensors",
-        "juggernautXL_version6Rundiffusion.safetensors",
-        "juggernautXL_v6Rundiffusion.safetensors"
+        "animaPencilXL_v300.safetensors",
+        "animaPencilXL_v260.safetensors",
+        "animaPencilXL_v210.safetensors",
+        "animaPencilXL_v200.safetensors",
+        "animaPencilXL_v100.safetensors"
     ]
 }
