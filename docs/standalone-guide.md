@@ -4,5 +4,5 @@
 - That's it! See the [request_examples](https://github.com/davefojtik/RunPod-Fooocus-API/blob/Standalone/docs/request_examples.js) for how to make requests to this endpoint from your app.
 
 ## How to customize standalone image
-To modify default settings and model, see [default.json](https://github.com/davefojtik/RunPod-Fooocus-API/blob/Standalone/src/default.json)  
+To modify default settings and model, see [anime.json](https://github.com/NeuroWhAI/RunPod-Fooocus-API/blob/Standalone/src/anime.json)  
 To modify which models and files are being baked into the image, see [Dockerfile](https://github.com/davefojtik/RunPod-Fooocus-API/blob/Standalone/Dockerfile)

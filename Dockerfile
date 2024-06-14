@@ -34,7 +34,7 @@ RUN --mount=type=cache,target=/cache --mount=type=cache,target=/root/.cache/pip 
 # Copy downloaded data to the final image
 COPY --from=download /workspace/ /workspace/
 # Change Fooocus configs
-COPY src/default.json /workspace/repositories/Fooocus/presets/default.json
+COPY src/anime.json /workspace/repositories/Fooocus/presets/anime.json
 
 # Install Python dependencies
 COPY builder/requirements.txt /requirements.txt

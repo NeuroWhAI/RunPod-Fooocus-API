@@ -2,7 +2,7 @@
 
 [Fooocus-API](https://github.com/mrhan1993/Fooocus-API) RunPod serverless worker implementation with anime settings.
 ___
-The **Standalone** branch is a ready-to-use docker image with all the files and models already baked and installed into it. You can still customize it to use your own content, but it can't be changed without rebuilding and redeploying the image. This is ideal if you want the fastest, cheapest possible endpoint for long-term usage without the need for frequent changes of its contents. See [standalone-guide](https://github.com/neurowhai/RunPod-Fooocus-API/blob/Standalone/docs/standalone-guide.md) or simply use `neurowhai/runpod-fooocus-anime-api:0.4.0.6-standalone` as the image for a quick deploy with the default Juggernaut V8 on your RunPod serverless endpoint.
+The **Standalone** branch is a ready-to-use docker image with all the files and models already baked and installed into it. You can still customize it to use your own content, but it can't be changed without rebuilding and redeploying the image. This is ideal if you want the fastest, cheapest possible endpoint for long-term usage without the need for frequent changes of its contents. See [standalone-guide](https://github.com/NeuroWhAI/RunPod-Fooocus-API/blob/Standalone/docs/standalone-guide.md) or simply use `neurowhai/runpod-fooocus-anime-api:0.4.0.6-standalone` as the image for a quick deploy with the default Juggernaut V8 on your RunPod serverless endpoint.
 
 ## How to send requests
 [request_examples.js](https://github.com/davefojtik/RunPod-Fooocus-API/blob/Standalone/docs/request_examples.js) contain example payloads for all endpoints on your serverless worker, regardless of the branch. But don't hesitate to ask if you need more help.
