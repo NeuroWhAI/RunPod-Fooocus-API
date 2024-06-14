@@ -2,6 +2,7 @@ FROM 3wad/runpod-fooocus-api:0.4.0.6-standalone
 
 # Change Fooocus configs
 COPY src/default.json /workspace/repositories/Fooocus/presets/default.json
+ADD src .
 
 # Remove default checkpoints
 RUN rm /workspace/repositories/Fooocus/models/checkpoints/juggernautXL_v8Rundiffusion.safetensors
